@@ -46,7 +46,7 @@ async function getData() {
 
     // .. mais ce serait mieux de les afficher sur la carte !
     var marker = L.marker([latitude, longitude]).addTo(mymap);
-    marker.bindPopup(title, address_name).openPopup();
+    marker.bindPopup(title + " - " + address_name).openPopup();
   });
 }
 
