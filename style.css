@@ -1,5 +1,13 @@
 /* votre code CSS */
 
 h1 {
-  color: red;
+  color: Black;
+}
+
+#mapid {
+  height: calc(100vh - 150px);
+}
+
+.header {
+  height: 150px;
 }
